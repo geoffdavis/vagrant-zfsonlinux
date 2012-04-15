@@ -1,0 +1,9 @@
+[submodule "modules/zfsonlinux"]
+	path = modules/zfsonlinux
+	url = git://github.com/geoffdavis/puppet-zfsonlinux.git
+[submodule "modules/staging"]
+	path = modules/staging
+	url = git://github.com/nanliu/puppet-staging.git
+[submodule "modules/hiera"]
+	path = modules/hiera
+	url = git://github.com/nanliu/puppet-hiera.git
