@@ -1,1 +1,9 @@
 This is a vagrant test harness for development of puppet-zfsonlinux
+
+Testing:
+
+To test the zfs and zpool providers, you can use puppet resource. In
+order for puppet resource to see the custom providers, you have to
+specify the modulepath like so:
+
+puppet resource --modulepath=/tmp/vagrant-puppet/modules-0/ zpool
